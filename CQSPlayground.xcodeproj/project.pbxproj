@@ -18,6 +18,8 @@
 		6CE0BCB529634C7100FF8B34 /* CommandService2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0BCB429634C7100FF8B34 /* CommandService2.swift */; };
 		6CE0BCB829634CEB00FF8B34 /* AdjustInventoryService2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0BCB729634CEB00FF8B34 /* AdjustInventoryService2.swift */; };
 		6CE0BCBA29634D6000FF8B34 /* InventoryController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0BCB929634D6000FF8B34 /* InventoryController2.swift */; };
+		6CE0BCBC2963875100FF8B34 /* TransactionCommandServiceDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0BCBB2963875100FF8B34 /* TransactionCommandServiceDecorator.swift */; };
+		6CE0BCBE2963895B00FF8B34 /* TransactionCommandServiceDecorator2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0BCBD2963895B00FF8B34 /* TransactionCommandServiceDecorator2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +47,8 @@
 		6CE0BCB429634C7100FF8B34 /* CommandService2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandService2.swift; sourceTree = "<group>"; };
 		6CE0BCB729634CEB00FF8B34 /* AdjustInventoryService2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdjustInventoryService2.swift; sourceTree = "<group>"; };
 		6CE0BCB929634D6000FF8B34 /* InventoryController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryController2.swift; sourceTree = "<group>"; };
+		6CE0BCBB2963875100FF8B34 /* TransactionCommandServiceDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCommandServiceDecorator.swift; sourceTree = "<group>"; };
+		6CE0BCBD2963895B00FF8B34 /* TransactionCommandServiceDecorator2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCommandServiceDecorator2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 			children = (
 				6CE0BCAE29632EC200FF8B34 /* AdjustInventoryService.swift */,
 				6CE0BCB029632ED600FF8B34 /* UpdateProductReviewTotalsService.swift */,
+				6CE0BCBB2963875100FF8B34 /* TransactionCommandServiceDecorator.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				6CE0BCB729634CEB00FF8B34 /* AdjustInventoryService2.swift */,
+				6CE0BCBD2963895B00FF8B34 /* TransactionCommandServiceDecorator2.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -190,10 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE0BCBE2963895B00FF8B34 /* TransactionCommandServiceDecorator2.swift in Sources */,
 				6CE0BCA429632BC400FF8B34 /* UpdateProductReviewsTotals.swift in Sources */,
 				6CE0BCB529634C7100FF8B34 /* CommandService2.swift in Sources */,
 				6CE0BCAA29632C3600FF8B34 /* InventoryController.swift in Sources */,
 				6CE0BC9C296325F500FF8B34 /* main.swift in Sources */,
+				6CE0BCBC2963875100FF8B34 /* TransactionCommandServiceDecorator.swift in Sources */,
 				6CE0BCA629632BE000FF8B34 /* AdjustInventory.swift in Sources */,
 				6CE0BCBA29634D6000FF8B34 /* InventoryController2.swift in Sources */,
 				6CE0BCAC29632E0D00FF8B34 /* ViewModel.swift in Sources */,

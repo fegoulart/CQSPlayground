@@ -16,3 +16,12 @@ extension CommandService2 where Command == AdjustInventory {
         }
     }
 }
+
+extension CommandService2 where Command == UpdateProductReviewTotals {
+
+    static func updateProductReviews() -> Self {
+        return .init { command in
+            print("UpdateProductReviewTotals")
+        }
+    }
+}
